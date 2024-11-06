@@ -472,6 +472,7 @@ document.body.innerHTML = `
     </div>
 `;
 
+
 // Update de processExcelFile functie
 function processExcelFile(file, minAge, maxAge, customAgeGroups) {
     return new Promise((resolve, reject) => {
